@@ -11,7 +11,7 @@ class App extends Component {
           <div className="App">
           </div>
           <Route path="/" component= {TopBar}/>
-          <Route exact path ="/" component= {CenterBox}/>
+          <Route path ="/" component= {CenterBox}/>
         </div>
       </BrowserRouter>
 
