@@ -10,8 +10,12 @@ class App extends Component {
         <div>
           <div className="App">
           </div>
-          <Route path="/" component= {TopBar}/>
-          <Route path ="/" component= {CenterBox}/>
+          <div className = "TopBar">
+          <TopBar/>
+          </div>
+          <div className = "CenterBox">
+          <CenterBox/>
+          </div>
         </div>
       </BrowserRouter>
 
