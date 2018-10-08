@@ -2,18 +2,19 @@ import React, { Component } from 'react';
 import './App.css';
 import TopBar from './TopBar/topbar';
 import CenterBox from './CenterBox/centerbox';
+import {BrowserRouter,Route} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className = "TopBar">
-          <TopBar/>
+      <BrowserRouter>
+        <div>
+          <div className="App">
+          </div>
+          <Route path="/" component= {TopBar}/>
+          <Route exact path ="/" component= {CenterBox}/>
         </div>
-        <div className = "CenterBox">
-          <CenterBox /> 
-        </div>
+      </BrowserRouter>
 
-      </div>
     );
   }
 }

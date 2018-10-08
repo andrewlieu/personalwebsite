@@ -1,5 +1,5 @@
 .centerbox {
-    display: inline-block;
+    display: block;
     overflow: hidden;
     scroll-snap-type: y proximity;
     margin: auto;
@@ -9,7 +9,7 @@
     overflow-y: scroll;
     font-size: 5vw;
     text-align: center;
-    font-family: 'Mono45 Headline', monospace;
+    font-family: 'Mono45 Headline';
     color: #ffffff;
     scroll-behavior: smooth;
     background-color:rgba(192, 206, 300, .5);
@@ -76,8 +76,6 @@ button:focus{
     font-size: 20px;
     text-align: center;
     vertical-align: middle;
-    min-height:50vh;
-    height:auto;
     max-height: auto;
     width: auto;
     
@@ -97,5 +95,4 @@ img{
     border-color: #325d80;
     display: inline-block;
     width: auto;
-    height: 20vh;
 }

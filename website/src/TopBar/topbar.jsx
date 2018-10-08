@@ -13,8 +13,7 @@ class TopBar extends Component {
         <div className = "title-directory">
             <a href = "#abtme">about me </a> | 
             <a href = "#exp"> experience </a> | 
-            <a href = "#proj"> projects </a> | 
-            <a href = "#mis"> misc </a> 
+            <a href = "#proj"> projects </a> 
         </div>
         <div className = "information">
           <div className = "information-text">
@@ -27,11 +26,7 @@ class TopBar extends Component {
             (626) 278-1356
           </div>
         </div>
-
-
-
         </div>
-
       </div>
     )
     }
