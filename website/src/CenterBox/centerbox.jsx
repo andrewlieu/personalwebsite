@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './centerbox.css';
-import toysrus from './toysrus.png';
-import livewell from './LiveWell.png';
-import biomass from './biomass.png';
+
 import codebase from './codebase.PNG';
-import binary from './binary.PNG';
 import binarytree from './binarytree.PNG';
 import portal from './portal.PNG';
 class CenterBox extends Component {
